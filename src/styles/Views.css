@@ -1,0 +1,94 @@
+/* Overall body styles */
+.hero__section {
+  padding: 20px 100px;
+  background-color: #111119;
+  height: 100vh;
+}
+/* Navbar styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1b20;
+  border-radius: 5px;
+  padding: 12px 24px;
+}
+.company__brand a,
+.login__brand a,
+nav > div > ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav > div > ul > li {
+  margin: 0 20px;
+  color: #b6b6b9;
+  font-size: 16px;
+}
+.company__brand,
+.login__brand {
+  font-size: 20px;
+}
+.company__brand i,
+.login__brand i {
+  margin-right: 10px;
+  /* margin-top: 0; */
+}
+.company__brand i {
+  color: #fcfe6a;
+}
+.company__brand h5,
+.login__brand h5 {
+  font-weight: 700;
+}
+.company__brand h5 {
+  color: #e4e4e5;
+}
+.login__brand h5, .login__brand i {
+  color: #111119;
+}
+nav button {
+  padding: 7px 28px;
+  border: none;
+  border-radius: 5px;
+}
+nav .signup__button {
+  margin-right: 20px;
+  border: 1px solid #b6b6b9;
+  color: #b6b6b9;
+  font-size: 12px;
+}
+nav .login__button {
+  background: #b6b6b9;
+  color: #1a1b20;
+}
+
+/* Hero container */
+.hero__container {
+  padding: 100px;
+  text-align: center;
+}
+.hero__container h1 {
+  font-size: 70px;
+  color: #fefffe;
+  width: 750px;
+  font-weight: 700;
+}
+.hero__container p,
+.hero__container h1 {
+  margin: 20px auto;
+}
+.hero__container h1 span {
+  color: #ad98ff;
+}
+.hero__container p {
+  font-size: 24px;
+  width: 600px;
+  color: #5e5e65;
+}
+.hero__container button {
+  background-color: #fcfe6a;
+  padding: 12px 40px;
+  border-radius: 4px;
+  font-weight: 700;
+}

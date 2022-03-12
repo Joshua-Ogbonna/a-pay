@@ -1,0 +1,20 @@
+.dashboard__component {
+  display: flex;
+}
+/* Sidebar Component */
+.dashboard__component .sidebar__component {
+  width: 30%;
+  background-color: #111119;
+  height: 100vh;
+}
+.dashboard__component .sidebar {
+  padding: 30px 50px;
+}
+.dashboard__component .sidebar .company__logo hr {
+  height: 2px;
+  margin-top: 20px;
+  color: #b6b6b9;
+}
+.dashboard__component .outlet__components {
+  width: 70%;
+}

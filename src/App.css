@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500&display=swap");
+
+h1,
+.nav .company__brand {
+  font-family: "Fredoka", sans-serif;
+}
+
+p,
+li,
+button {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}

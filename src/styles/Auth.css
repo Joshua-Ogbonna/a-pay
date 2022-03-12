@@ -1,0 +1,33 @@
+.auth__container {
+  display: flex;
+}
+.auth__container .side__component,
+.auth__container .auth__component {
+  width: 50%;
+}
+.auth__side {
+  height: 100vh;
+  background-color: #111119;
+}
+.login__section {
+  padding: 30px 100px;
+}
+.no__account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Form Styles */
+.auth__form {
+  padding: 100px 0;
+}
+.auth__form h3 {
+  margin: 20px 0 10px;
+}
+.auth__form .form__group {
+  margin: 20px 0;
+}
+.auth__form label {
+  margin-bottom: 10px;
+}
