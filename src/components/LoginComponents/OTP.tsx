@@ -1,5 +1,5 @@
 import React from "react";
-import { Input } from "@chakra-ui/react";
+import { Input } from "antd";
 import Button from "../Button";
 import { useNavigate } from "react-router-dom";
 
@@ -26,6 +26,7 @@ const OTP = ({ pin, setPin }: OTPProps) => {
             placeholder="Confirm OTP"
             value={pin}
             onChange={(e) => setPin(e.target.value)}
+            size="large"
           />
         </div>
         <div className="form__group">

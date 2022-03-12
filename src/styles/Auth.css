@@ -20,7 +20,7 @@
 
 /* Form Styles */
 .auth__form {
-  padding: 100px 0;
+  padding: 100px 0 80px;
 }
 .auth__form h3 {
   margin: 20px 0 10px;

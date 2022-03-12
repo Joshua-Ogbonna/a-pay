@@ -1,5 +1,5 @@
 import React from "react";
-import { Input } from "@chakra-ui/react";
+import { Input } from "antd";
 import Button from "../Button";
 import { Link } from "react-router-dom";
 
@@ -28,6 +28,7 @@ const LoginForm = ({ user, setUser, setPosition, position }: UserTypes) => {
             value={user.email}
             onChange={(e) => setUser({ ...user, email: e.target.value })}
             placeholder="hello@email.com"
+            size="large"
           />
         </div>
         <div className="form__group">
@@ -37,6 +38,7 @@ const LoginForm = ({ user, setUser, setPosition, position }: UserTypes) => {
             value={user.password}
             onChange={(e) => setUser({ ...user, password: e.target.value })}
             placeholder="**********"
+            size="large"
           />
         </div>
         <div className="form__group no__account">
