@@ -2,17 +2,9 @@ import React from "react";
 import { Input } from "antd";
 import Button from "../Button";
 import { Link } from "react-router-dom";
+import {UserInput} from '../../utils/types'
 
-type UserTypes = {
-  user: { email: string; password: string };
-  setUser: React.Dispatch<
-    React.SetStateAction<{ email: string; password: string }>
-  >;
-  setPosition: React.Dispatch<React.SetStateAction<number>>;
-  position: number;
-};
-
-const LoginForm = ({ user, setUser, setPosition, position }: UserTypes) => {
+const LoginForm = ({ user, setUser, setPosition, position }: UserInput) => {
   const handlePosition = () => {
     setPosition(position + 1);
   };

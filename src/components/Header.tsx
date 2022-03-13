@@ -15,9 +15,11 @@ const Header = () => {
         </ul>
       </div>
       <div className="action__button">
-        <button className="signup__button">
-          <i className="fa-solid fa-user-plus"></i> Sign Up
-        </button>
+        <Link to="/sign-up">
+          <button className="signup__button">
+            <i className="fa-solid fa-user-plus"></i> Sign Up
+          </button>
+        </Link>
         <Link to="/login">
           <button className="login__button">
             <i className="fa-solid fa-right-to-bracket"></i> Login

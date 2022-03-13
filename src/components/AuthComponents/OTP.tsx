@@ -1,20 +1,14 @@
 import React from "react";
 import { Input } from "antd";
 import Button from "../Button";
-import { useNavigate } from "react-router-dom";
 
 interface OTPProps {
   pin: string;
   setPin: React.Dispatch<React.SetStateAction<string>>;
+  callBack?: React.MouseEventHandler<HTMLButtonElement>
 }
 
-const OTP = ({ pin, setPin }: OTPProps) => {
-  const navigate = useNavigate();
-
-  const handleConfirmOTP = () => {
-    console.log("Pin Confirmed");
-    navigate("/dashboard");
-  };
+const OTP = ({ pin, setPin, callBack }: OTPProps) => {
 
   return (
     <div className="auth__form">
@@ -33,7 +27,7 @@ const OTP = ({ pin, setPin }: OTPProps) => {
           <Button
             text="Confirm OTP"
             className="auth__button"
-            callBack={handleConfirmOTP}
+            callBack={callBack}
           />
         </div>
       </div>

@@ -18,3 +18,28 @@
 .dashboard__component .outlet__components {
   width: 70%;
 }
+.sidebar ul {
+    padding-left: 0;
+    margin-top: 50px;
+}
+.sidebar ul li {
+    list-style-type: none;
+    color: #868686;
+    cursor: pointer;
+    padding: 10px 0;
+    /* margin-bottom: 10px; */
+    font-size: 16px;
+    font-weight: 600;
+}
+.sidebar ul li i {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 99px;
+}
+.sidebar ul .active__item {
+    color: #a9dfd8;
+}
+.sidebar ul .active__item i {
+    background-color: #a9dfd8;
+    color: #4b6361;
+}

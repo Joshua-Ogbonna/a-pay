@@ -57,6 +57,7 @@ nav .signup__button {
   border: 1px solid #b6b6b9;
   color: #b6b6b9;
   font-size: 12px;
+  background: transparent;
 }
 nav .login__button {
   background: #b6b6b9;
@@ -91,4 +92,5 @@ nav .login__button {
   padding: 12px 40px;
   border-radius: 4px;
   font-weight: 700;
+  color: #111119;
 }

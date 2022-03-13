@@ -12,6 +12,7 @@ import "./styles/Dashboard.css";
 
 // Components and Views
 import LoginAuth from "./views/Authentication/LoginAuth";
+import SignUpAuth from "./views/Authentication/SignUpAuth";
 // Dashboard Components
 import Dashboard from "./views/Dashboard/Dashboard";
 
@@ -23,6 +24,8 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* Auth Routes */}
           <Route path="/login" element={<LoginAuth />} />
+          <Route path="/sign-up" element={<SignUpAuth />} />
+          {/* Dashboard */}
           <Route path="/dashboard" element={<Dashboard />}></Route>
         </Routes>
       </BrowserRouter>
