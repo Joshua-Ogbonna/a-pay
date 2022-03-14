@@ -7,6 +7,7 @@ export type UserTypes = {
     email: string;
     password: string;
     confirmPassword?: string
+    userID: string
 };
 
 export type UserInput = {

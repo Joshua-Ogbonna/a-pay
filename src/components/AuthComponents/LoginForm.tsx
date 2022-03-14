@@ -35,7 +35,7 @@ const LoginForm = ({ user, setUser, setPosition, position }: UserInput) => {
         </div>
         <div className="form__group no__account">
           <p><Link to="/recover-password">Recover password</Link></p>
-          <p><Link to="/sign-uo">Sign Up</Link></p>
+          <p><Link to="/sign-up">Sign Up</Link></p>
         </div>
         <div className="form__group">
           <Button

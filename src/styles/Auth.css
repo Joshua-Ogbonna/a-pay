@@ -10,7 +10,7 @@
   background-color: #111119;
 }
 .auth__section {
-  padding: 30px 100px;
+  padding: 20px 100px;
 }
 .no__account {
   display: flex;
@@ -20,7 +20,7 @@
 
 /* Form Styles */
 .auth__form {
-  padding: 100px 0 80px;
+  padding: 60px 0 30px;
 }
 .auth__form h3 {
   margin: 20px 0 10px;

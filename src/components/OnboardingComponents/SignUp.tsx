@@ -9,6 +9,7 @@ const SignUp = () => {
   const [pin, setPin] = useState<PinType>("");
   const [user, setUser] = useState<UserTypes>({
     email: "",
+    userID: "",
     password: "",
     confirmPassword: "",
   });

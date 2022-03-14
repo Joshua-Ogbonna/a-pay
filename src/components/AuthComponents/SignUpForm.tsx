@@ -6,7 +6,7 @@ import { UserInput } from "../../utils/types";
 const SignUpForm = ({ user, setUser, position, setPosition }: UserInput) => {
   const handleSignUp = () => {
     console.log(user);
-    setPosition(position + 1)
+    setPosition(position + 1);
   };
   return (
     <div className="auth__form">
@@ -20,6 +20,16 @@ const SignUpForm = ({ user, setUser, position, setPosition }: UserInput) => {
           placeholder="hello@email.co"
           value={user.email}
           onChange={(e) => setUser({ ...user, email: e.target.value })}
+        />
+      </div>
+      <div className="form__group">
+        <label htmlFor="userID">User ID</label>
+        <Input
+          type="text"
+          size="large"
+          placeholder="john_doe"
+          value={user.userID}
+          onChange={(e) => setUser({ ...user, userID: e.target.value })}
         />
       </div>
       <div className="form__group">
