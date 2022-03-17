@@ -3,6 +3,7 @@ import OTP from "../AuthComponents/OTP";
 import SignUpForm from "../AuthComponents/SignUpForm";
 import Logo from "../Logo";
 import { StepsTypes, PinType, UserTypes } from "../../utils/types";
+import {useNavigate} from 'react-router-dom'
 
 const SignUp = () => {
   const [position, setPosition] = useState(0);
@@ -13,9 +14,11 @@ const SignUp = () => {
     password: "",
     confirmPassword: "",
   });
+  const navigate = useNavigate()
 
   const handleConfirmOTP = () => {
       console.log(pin)
+      navigate("/options")
   }
 
   const steps: StepsTypes = [

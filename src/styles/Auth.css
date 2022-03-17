@@ -1,15 +1,15 @@
-.auth__container {
+.auth__container, .options {
   display: flex;
 }
 .auth__container .side__component,
-.auth__container .auth__component {
+.auth__container .auth__component, .options .account__types, .options .side__component {
   width: 50%;
 }
 .auth__side {
   height: 100vh;
   background-color: #111119;
 }
-.auth__section {
+.auth__section, .account__types {
   padding: 20px 100px;
 }
 .no__account {
@@ -19,7 +19,7 @@
 }
 
 /* Form Styles */
-.auth__form {
+.auth__form, .accounts {
   padding: 60px 0 30px;
 }
 .auth__form h3 {
@@ -28,6 +28,33 @@
 .auth__form .form__group {
   margin: 20px 0;
 }
-.auth__form label {
+.auth__form label, .profile__form label {
   margin-bottom: 10px;
+  width: 100%;
+}
+.auth__form select, .profile__form select {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #e8efff;
+}
+
+/* Account options */
+.option__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.option__cards a {
+  background: #111119;
+  color: #e8efff;
+  width: 33%;
+  padding: 30px 20px;
+  text-align: center;
+}
+.option__cards a i {
+  margin-bottom: 10px;
+  color: #111119;
+  padding: 10px;
+  border-radius: 99px;
+  background: #e8efff;
 }

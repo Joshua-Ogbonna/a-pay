@@ -13,6 +13,8 @@ import "./styles/Dashboard.css";
 // Components and Views
 import LoginAuth from "./views/Authentication/LoginAuth";
 import SignUpAuth from "./views/Authentication/SignUpAuth";
+import Options from "./views/Authentication/Options";
+import Personal from './views/Onboarding/Personal'
 // Dashboard Components
 import Dashboard from "./views/Dashboard/Dashboard";
 
@@ -25,6 +27,9 @@ function App() {
           {/* Auth Routes */}
           <Route path="/login" element={<LoginAuth />} />
           <Route path="/sign-up" element={<SignUpAuth />} />
+          {/* Account types */}
+          <Route path="/options" element={<Options />} />
+          <Route path="/options/Personal" element={<Personal />} />
           {/* Dashboard */}
           <Route path="/dashboard" element={<Dashboard />}></Route>
         </Routes>

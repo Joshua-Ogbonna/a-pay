@@ -7,7 +7,7 @@ export type UserTypes = {
     email: string;
     password: string;
     confirmPassword?: string
-    userID: string
+    userID?: string
 };
 
 export type UserInput = {
@@ -19,3 +19,10 @@ export type UserInput = {
     position: number;
 };
 export type PinType = string
+
+// Account types
+export type OptionsTypes = {
+    atId: null;
+    accountType: "Personal" | "Corporate" | "SME";
+    status: string;
+}[] | []

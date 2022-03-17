@@ -1,1 +1,1 @@
-export const link = "https://limitless-citadel-60501.herokuapp.com"
+export const link = "https://lampapay.herokuapp.com"
