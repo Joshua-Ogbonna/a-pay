@@ -1,7 +1,12 @@
 import React from "react";
 import { Input } from "antd";
+import {useNavigate} from 'react-router-dom'
 
 const PersonalProfileForm = () => {
+    const navigate = useNavigate()
+    const handleSubmission = () => {
+        navigate("/dashboard")
+    }
   return (
     <div className="profile__form">
       <h5 className="mt-5 mb-3">Personal Profile</h5>
@@ -69,6 +74,9 @@ const PersonalProfileForm = () => {
                 <label htmlFor="street">Street</label>
                 <Input type="text" size="large" placeholder="Street" />
             </div>
+        </div>
+        <div className="form__group">
+            <button onClick={handleSubmission}>Submit</button>
         </div>
       </div>
     </div>

@@ -37,6 +37,13 @@
   width: 100%;
   border: 1px solid #e8efff;
 }
+.profile__form button {
+  width: 100%;
+  border: none;
+  background-color: #111119;
+  color: #e8efff;
+  height: 50px;
+}
 
 /* Account options */
 .option__cards {
